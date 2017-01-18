@@ -1,0 +1,264 @@
+0000.001 (0) Opened log file at time: Fri, 13 Jan 2017 17:15:39 +0000 on http://localhost:8888
+0000.005 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.12.30.22 WP: 4.7.1 PHP: 7.0.12 (apache2handler, Darwin HP-on-Youngs-Time-Capsule.local 16.3.0 Darwin Kernel Version 16.3.0: Thu Nov 17 20:23:58 PST 2016; root:xnu-3789.31.2~1/RELEASE_X86_64 x86_64) MySQL: 5.6.33 WPLANG: en_US Server: Apache/2.2.31 (Unix) mod_wsgi/3.5 Python/2.7.12 PHP/7.0.12 mod_ssl/2.2.31 OpenSSL/1.0.2j DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.24.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 34.2M | 20M) multisite: N openssl: OpenSSL 1.0.2j  26 Sep 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.007 (0) Free space on disk containing Updraft's temporary directory: 97943.4 MB
+0000.026 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.031 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.038 (0) Set semaphore last lock (fd) time to 2017-01-13 17:15:39
+0000.041 (0) Semaphore lock (fd) complete
+0000.054 (0) Backup run: resumption=0, nonce=f72a49b74f3e, begun at=1484327739 (0s ago), job type=backup, label=Automatic backup before update
+0000.059 (0) Scheduling a resumption (1) after 300 seconds (1484328039) in case this run gets aborted
+0000.094 (0) Checking if we have a zip executable available
+0000.097 (0) Testing: /usr/bin/zip
+0000.118 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.124 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.125 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.126 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.128 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.145 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.150 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.174 (0) Working binary zip found: /usr/bin/zip
+0000.178 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.180 (0) Creation of backups of directories: beginning
+0000.188 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.465 (0) Total entities for the zip file: 533 directories, 3662 files (0 skipped as non-modified), 36.2 MB
+0000.475 (0) Zip: backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.485 (0) Zip: backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.494 (0) Zip: backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.506 (0) Zip: backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.516 (0) Zip: backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.522 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.3 MB, 3662 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0001.282 (0) backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-plugins.zip.tmp: size is now: 2.40 MB
+0001.295 (0) Zip: backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-plugins.zip.tmp: 600 files added (on-disk size: 2445.5 KB)
+0001.305 (0) Zip: backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-plugins.zip.tmp: 700 files added (on-disk size: 2445.5 KB)
+0001.315 (0) Zip: backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-plugins.zip.tmp: 800 files added (on-disk size: 2445.5 KB)
+0001.326 (0) Zip: backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-plugins.zip.tmp: 900 files added (on-disk size: 2445.5 KB)
+0001.337 (0) Zip: backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-plugins.zip.tmp: 1000 files added (on-disk size: 2445.5 KB)
+0001.339 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.1 MB, 3662 files batched, 501 (1002) added so far); re-opening (prior size: 2445.5 KB)
+0001.939 (0) backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-plugins.zip.tmp: size is now: 3.20 MB
+0001.963 (0) Zip: backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-plugins.zip.tmp: 1100 files added (on-disk size: 3301.9 KB)
+0001.975 (0) Zip: backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-plugins.zip.tmp: 1200 files added (on-disk size: 3301.9 KB)
+0001.989 (0) Zip: backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-plugins.zip.tmp: 1300 files added (on-disk size: 3301.9 KB)
+0001.999 (0) Zip: backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-plugins.zip.tmp: 1400 files added (on-disk size: 3301.9 KB)
+0002.010 (0) Zip: backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-plugins.zip.tmp: 1500 files added (on-disk size: 3301.9 KB)
+0002.013 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (11 MB, 3662 files batched, 501 (1503) added so far); re-opening (prior size: 3301.9 KB)
+0003.216 (0) backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-plugins.zip.tmp: size is now: 5.60 MB
+0003.233 (0) Zip: backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-plugins.zip.tmp: 1600 files added (on-disk size: 5693.4 KB)
+0003.245 (0) Zip: backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-plugins.zip.tmp: 1700 files added (on-disk size: 5693.4 KB)
+0003.255 (0) Zip: backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-plugins.zip.tmp: 1800 files added (on-disk size: 5693.4 KB)
+0003.266 (0) Zip: backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-plugins.zip.tmp: 1900 files added (on-disk size: 5693.4 KB)
+0003.276 (0) Zip: backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-plugins.zip.tmp: 2000 files added (on-disk size: 5693.4 KB)
+0003.278 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.9 MB, 3662 files batched, 501 (2004) added so far); re-opening (prior size: 5693.4 KB)
+0004.027 (0) Zip: backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-plugins.zip.tmp: 2100 files added (on-disk size: 6655.9 KB)
+0004.039 (0) Zip: backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-plugins.zip.tmp: 2200 files added (on-disk size: 6655.9 KB)
+0004.051 (0) Zip: backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-plugins.zip.tmp: 2300 files added (on-disk size: 6655.9 KB)
+0004.062 (0) Zip: backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-plugins.zip.tmp: 2400 files added (on-disk size: 6655.9 KB)
+0004.077 (0) Zip: backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-plugins.zip.tmp: 2500 files added (on-disk size: 6655.9 KB)
+0004.080 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.6 MB, 3662 files batched, 501 (2505) added so far); re-opening (prior size: 6655.9 KB)
+0004.915 (0) Zip: backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-plugins.zip.tmp: 2600 files added (on-disk size: 7334.1 KB)
+0004.926 (0) Zip: backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-plugins.zip.tmp: 2700 files added (on-disk size: 7334.1 KB)
+0004.937 (0) Zip: backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-plugins.zip.tmp: 2800 files added (on-disk size: 7334.1 KB)
+0004.948 (0) Zip: backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-plugins.zip.tmp: 2900 files added (on-disk size: 7334.1 KB)
+0004.961 (0) Zip: backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-plugins.zip.tmp: 3000 files added (on-disk size: 7334.1 KB)
+0004.963 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5 MB, 3662 files batched, 501 (3006) added so far); re-opening (prior size: 7334.1 KB)
+0006.297 (0) backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-plugins.zip.tmp: size is now: 8.60 MB
+0006.311 (0) Zip: backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-plugins.zip.tmp: 3100 files added (on-disk size: 8817.3 KB)
+0006.322 (0) Zip: backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-plugins.zip.tmp: 3200 files added (on-disk size: 8817.3 KB)
+0006.332 (0) Zip: backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-plugins.zip.tmp: 3300 files added (on-disk size: 8817.3 KB)
+0006.343 (0) Zip: backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-plugins.zip.tmp: 3400 files added (on-disk size: 8817.3 KB)
+0006.354 (0) Zip: backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-plugins.zip.tmp: 3500 files added (on-disk size: 8817.3 KB)
+0006.356 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.2 MB, 3662 files batched, 501 (3507) added so far); re-opening (prior size: 8817.3 KB)
+0007.782 (0) backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-plugins.zip.tmp: size is now: 11.40 MB
+0007.797 (0) Zip: backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-plugins.zip.tmp: 3600 files added (on-disk size: 11636.9 KB)
+0008.447 (0) Created plugins zip (0) - 13018.3 KB in 8.3 s (1576.8 KB/s) (SHA1 checksum: 6c1487d426548a48700d32d59b19a08be3d0d757)
+0008.451 (0) No backup of themes: excluded by user's options
+0008.453 (0) No backup of uploads: excluded by user's options
+0008.455 (0) No backup of wpcore: excluded by user's options
+0008.457 (0) No backup of others: excluded by user's options
+0008.458 (0) No backup of more: excluded by user's options
+0008.468 (0) Saving backup status to database (elements: 2)
+0008.473 (0) Beginning creation of database dump (WordPress DB)
+0008.521 (0) Table wp_drerichollisoptions: Total expected rows (approximate): 284
+0008.618 (0) Table wp_drerichollisoptions: Total rows added: 189 in 0.10 seconds
+0008.622 (0) Table wp_drerichollisoptions: finishing file (backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-db-table-wp_drerichollisoptions.table.gz - 133.1 KB)
+0008.632 (0) Table wp_drerichollisusers: Total expected rows (approximate): 1
+0008.639 (0) Table wp_drerichollisusers: Total rows added: 1 in 0.01 seconds
+0008.641 (0) Table wp_drerichollisusers: finishing file (backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-db-table-wp_drerichollisusers.table.gz - 0.6 KB)
+0008.651 (0) Table wp_drerichollisusermeta: Total expected rows (approximate): 21
+0008.659 (0) Table wp_drerichollisusermeta: Total rows added: 21 in 0.01 seconds
+0008.662 (0) Table wp_drerichollisusermeta: finishing file (backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-db-table-wp_drerichollisusermeta.table.gz - 1.2 KB)
+0008.673 (0) Table wp_drericholliscommentmeta: Total expected rows (approximate): 2
+0008.681 (0) Table wp_drericholliscommentmeta: Total rows added: 2 in 0.01 seconds
+0008.684 (0) Table wp_drericholliscommentmeta: finishing file (backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-db-table-wp_drericholliscommentmeta.table.gz - 0.4 KB)
+0008.695 (0) Table wp_drericholliscomments: Total expected rows (approximate): 1
+0008.705 (0) Table wp_drericholliscomments: Total rows added: 1 in 0.01 seconds
+0008.708 (0) Table wp_drericholliscomments: finishing file (backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-db-table-wp_drericholliscomments.table.gz - 0.7 KB)
+0008.728 (0) Table wp_drerichollislinks: Total expected rows (approximate): 0
+0008.736 (0) Table wp_drerichollislinks: Total rows added: 0 in 0.01 seconds
+0008.739 (0) Table wp_drerichollislinks: finishing file (backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-db-table-wp_drerichollislinks.table.gz - 0.5 KB)
+0008.751 (0) Table wp_drerichollispostmeta: Total expected rows (approximate): 428
+0008.783 (0) Table wp_drerichollispostmeta: Total rows added: 403 in 0.03 seconds
+0008.786 (0) Table wp_drerichollispostmeta: finishing file (backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-db-table-wp_drerichollispostmeta.table.gz - 7.8 KB)
+0008.797 (0) Table wp_drerichollisposts: Total expected rows (approximate): 179
+0008.855 (0) Table wp_drerichollisposts: Total rows added: 184 in 0.06 seconds
+0008.860 (0) Table wp_drerichollisposts: finishing file (backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-db-table-wp_drerichollisposts.table.gz - 17.7 KB)
+0008.873 (0) Table wp_drerichollisterm_relationships: Total expected rows (approximate): 18
+0008.883 (0) Table wp_drerichollisterm_relationships: Total rows added: 18 in 0.01 seconds
+0008.885 (0) Table wp_drerichollisterm_relationships: finishing file (backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-db-table-wp_drerichollisterm_relationships.table.gz - 0.4 KB)
+0008.897 (0) Table wp_drerichollisterm_taxonomy: Total expected rows (approximate): 8
+0008.915 (0) Table wp_drerichollisterm_taxonomy: Total rows added: 8 in 0.02 seconds
+0008.920 (0) Table wp_drerichollisterm_taxonomy: finishing file (backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-db-table-wp_drerichollisterm_taxonomy.table.gz - 0.5 KB)
+0008.943 (0) Table wp_drerichollistermmeta: Total expected rows (approximate): 0
+0008.949 (0) Table wp_drerichollistermmeta: Total rows added: 0 in 0.00 seconds
+0008.952 (0) Table wp_drerichollistermmeta: finishing file (backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-db-table-wp_drerichollistermmeta.table.gz - 0.4 KB)
+0008.968 (0) Table wp_drerichollisterms: Total expected rows (approximate): 8
+0008.975 (0) Table wp_drerichollisterms: Total rows added: 8 in 0.00 seconds
+0008.977 (0) Table wp_drerichollisterms: finishing file (backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-db-table-wp_drerichollisterms.table.gz - 0.5 KB)
+0008.988 (0) Table wp_drericholliswfBadLeechers: Total expected rows (approximate): 0
+0008.994 (0) Table wp_drericholliswfBadLeechers: Total rows added: 0 in 0.00 seconds
+0008.997 (0) Table wp_drericholliswfBadLeechers: finishing file (backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-db-table-wp_drericholliswfBadLeechers.table.gz - 0.3 KB)
+0009.024 (0) Table wp_drericholliswfBlockedIPLog: Total expected rows (approximate): 0
+0009.037 (0) Table wp_drericholliswfBlockedIPLog: Total rows added: 0 in 0.01 seconds
+0009.040 (0) Table wp_drericholliswfBlockedIPLog: finishing file (backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-db-table-wp_drericholliswfBlockedIPLog.table.gz - 0.3 KB)
+0009.051 (0) Table wp_drericholliswfBlocks: Total expected rows (approximate): 0
+0009.057 (0) Table wp_drericholliswfBlocks: Total rows added: 0 in 0.00 seconds
+0009.060 (0) Table wp_drericholliswfBlocks: finishing file (backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-db-table-wp_drericholliswfBlocks.table.gz - 0.4 KB)
+0009.070 (0) Table wp_drericholliswfBlocksAdv: Total expected rows (approximate): 0
+0009.077 (0) Table wp_drericholliswfBlocksAdv: Total rows added: 0 in 0.00 seconds
+0009.081 (0) Table wp_drericholliswfBlocksAdv: finishing file (backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-db-table-wp_drericholliswfBlocksAdv.table.gz - 0.3 KB)
+0009.090 (0) Table wp_drericholliswfConfig: Total expected rows (approximate): 152
+0009.104 (0) Table wp_drericholliswfConfig: Total rows added: 152 in 0.01 seconds
+0009.107 (0) Table wp_drericholliswfConfig: finishing file (backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-db-table-wp_drericholliswfConfig.table.gz - 2.8 KB)
+0009.118 (0) Table wp_drericholliswfCrawlers: Total expected rows (approximate): 0
+0009.124 (0) Table wp_drericholliswfCrawlers: Total rows added: 0 in 0.00 seconds
+0009.126 (0) Table wp_drericholliswfCrawlers: finishing file (backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-db-table-wp_drericholliswfCrawlers.table.gz - 0.3 KB)
+0009.136 (0) Table wp_drericholliswfFileMods: Total expected rows (approximate): 4505
+0009.523 (0) Table wp_drericholliswfFileMods: Total rows added: 4977 in 0.38 seconds
+0009.525 (0) Table wp_drericholliswfFileMods: finishing file (backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-db-table-wp_drericholliswfFileMods.table.gz - 249 KB)
+0009.536 (0) Table wp_drericholliswfHits: Total expected rows (approximate): 9
+0009.546 (0) Table wp_drericholliswfHits: Total rows added: 9 in 0.01 seconds
+0009.549 (0) Table wp_drericholliswfHits: finishing file (backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-db-table-wp_drericholliswfHits.table.gz - 1 KB)
+0009.558 (0) Table wp_drericholliswfHoover: Total expected rows (approximate): 3585
+0009.829 (0) Table wp_drericholliswfHoover: Total rows added: 3499 in 0.27 seconds
+0009.834 (0) Table wp_drericholliswfHoover: finishing file (backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-db-table-wp_drericholliswfHoover.table.gz - 48.5 KB)
+0009.843 (0) Table wp_drericholliswfIssues: Total expected rows (approximate): 52
+0009.859 (0) Table wp_drericholliswfIssues: Total rows added: 68 in 0.01 seconds
+0009.862 (0) Table wp_drericholliswfIssues: finishing file (backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-db-table-wp_drericholliswfIssues.table.gz - 5 KB)
+0009.873 (0) Table wp_drericholliswfKnownFileList: Total expected rows (approximate): 4714
+0010.149 (0) Table wp_drericholliswfKnownFileList: Total rows added: 4977 in 0.27 seconds
+0010.153 (0) Table wp_drericholliswfKnownFileList: finishing file (backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-db-table-wp_drericholliswfKnownFileList.table.gz - 48.4 KB)
+0010.164 (0) Table wp_drericholliswfLeechers: Total expected rows (approximate): 3
+0010.170 (0) Table wp_drericholliswfLeechers: Total rows added: 3 in 0.00 seconds
+0010.174 (0) Table wp_drericholliswfLeechers: finishing file (backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-db-table-wp_drericholliswfLeechers.table.gz - 0.3 KB)
+0010.183 (0) Table wp_drericholliswfLockedOut: Total expected rows (approximate): 0
+0010.189 (0) Table wp_drericholliswfLockedOut: Total rows added: 0 in 0.00 seconds
+0010.191 (0) Table wp_drericholliswfLockedOut: finishing file (backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-db-table-wp_drericholliswfLockedOut.table.gz - 0.3 KB)
+0010.199 (0) Table wp_drericholliswfLocs: Total expected rows (approximate): 0
+0010.205 (0) Table wp_drericholliswfLocs: Total rows added: 0 in 0.00 seconds
+0010.208 (0) Table wp_drericholliswfLocs: finishing file (backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-db-table-wp_drericholliswfLocs.table.gz - 0.4 KB)
+0010.218 (0) Table wp_drericholliswfLogins: Total expected rows (approximate): 3
+0010.225 (0) Table wp_drericholliswfLogins: Total rows added: 3 in 0.01 seconds
+0010.228 (0) Table wp_drericholliswfLogins: finishing file (backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-db-table-wp_drericholliswfLogins.table.gz - 0.7 KB)
+0010.237 (0) Table wp_drericholliswfNet404s: Total expected rows (approximate): 0
+0010.244 (0) Table wp_drericholliswfNet404s: Total rows added: 0 in 0.00 seconds
+0010.247 (0) Table wp_drericholliswfNet404s: finishing file (backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-db-table-wp_drericholliswfNet404s.table.gz - 0.3 KB)
+0010.258 (0) Table wp_drericholliswfReverseCache: Total expected rows (approximate): 0
+0010.264 (0) Table wp_drericholliswfReverseCache: Total rows added: 0 in 0.00 seconds
+0010.266 (0) Table wp_drericholliswfReverseCache: finishing file (backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-db-table-wp_drericholliswfReverseCache.table.gz - 0.3 KB)
+0010.281 (0) Table wp_drericholliswfSNIPCache: Total expected rows (approximate): 0
+0010.286 (0) Table wp_drericholliswfSNIPCache: Total rows added: 0 in 0.00 seconds
+0010.289 (0) Table wp_drericholliswfSNIPCache: finishing file (backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-db-table-wp_drericholliswfSNIPCache.table.gz - 0.4 KB)
+0010.299 (0) Table wp_drericholliswfScanners: Total expected rows (approximate): 0
+0010.305 (0) Table wp_drericholliswfScanners: Total rows added: 0 in 0.00 seconds
+0010.309 (0) Table wp_drericholliswfScanners: finishing file (backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-db-table-wp_drericholliswfScanners.table.gz - 0.3 KB)
+0010.324 (0) Table wp_drericholliswfStatus: Total expected rows (approximate): 424
+0010.350 (0) Table wp_drericholliswfStatus: Total rows added: 400 in 0.02 seconds
+0010.354 (0) Table wp_drericholliswfStatus: finishing file (backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-db-table-wp_drericholliswfStatus.table.gz - 7.2 KB)
+0010.364 (0) Table wp_drericholliswfThrottleLog: Total expected rows (approximate): 0
+0010.370 (0) Table wp_drericholliswfThrottleLog: Total rows added: 0 in 0.00 seconds
+0010.373 (0) Table wp_drericholliswfThrottleLog: finishing file (backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-db-table-wp_drericholliswfThrottleLog.table.gz - 0.3 KB)
+0010.382 (0) Table wp_drericholliswfVulnScanners: Total expected rows (approximate): 0
+0010.388 (0) Table wp_drericholliswfVulnScanners: Total rows added: 0 in 0.00 seconds
+0010.393 (0) Table wp_drericholliswfVulnScanners: finishing file (backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-db-table-wp_drericholliswfVulnScanners.table.gz - 0.3 KB)
+0010.402 (0) backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-db-table-wp_drerichollisoptions.table.gz (1/34): adding to final database dump
+0010.481 (0) backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-db-table-wp_drerichollisusers.table.gz (2/34): adding to final database dump
+0010.482 (0) backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-db-table-wp_drerichollisusermeta.table.gz (3/34): adding to final database dump
+0010.486 (0) backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-db-table-wp_drericholliscommentmeta.table.gz (4/34): adding to final database dump
+0010.488 (0) backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-db-table-wp_drericholliscomments.table.gz (5/34): adding to final database dump
+0010.490 (0) backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-db-table-wp_drerichollislinks.table.gz (6/34): adding to final database dump
+0010.492 (0) backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-db-table-wp_drerichollispostmeta.table.gz (7/34): adding to final database dump
+0010.498 (0) backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-db-table-wp_drerichollisposts.table.gz (8/34): adding to final database dump
+0010.511 (0) backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-db-table-wp_drerichollisterm_relationships.table.gz (9/34): adding to final database dump
+0010.513 (0) backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-db-table-wp_drerichollisterm_taxonomy.table.gz (10/34): adding to final database dump
+0010.514 (0) backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-db-table-wp_drerichollistermmeta.table.gz (11/34): adding to final database dump
+0010.516 (0) backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-db-table-wp_drerichollisterms.table.gz (12/34): adding to final database dump
+0010.518 (0) backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-db-table-wp_drericholliswfBadLeechers.table.gz (13/34): adding to final database dump
+0010.520 (0) backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-db-table-wp_drericholliswfBlockedIPLog.table.gz (14/34): adding to final database dump
+0010.522 (0) backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-db-table-wp_drericholliswfBlocks.table.gz (15/34): adding to final database dump
+0010.524 (0) backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-db-table-wp_drericholliswfBlocksAdv.table.gz (16/34): adding to final database dump
+0010.525 (0) backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-db-table-wp_drericholliswfConfig.table.gz (17/34): adding to final database dump
+0010.529 (0) backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-db-table-wp_drericholliswfCrawlers.table.gz (18/34): adding to final database dump
+0010.531 (0) backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-db-table-wp_drericholliswfFileMods.table.gz (19/34): adding to final database dump
+0010.625 (0) backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-db-table-wp_drericholliswfHits.table.gz (20/34): adding to final database dump
+0010.627 (0) backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-db-table-wp_drericholliswfHoover.table.gz (21/34): adding to final database dump
+0010.677 (0) backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-db-table-wp_drericholliswfIssues.table.gz (22/34): adding to final database dump
+0010.682 (0) backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-db-table-wp_drericholliswfKnownFileList.table.gz (23/34): adding to final database dump
+0010.725 (0) backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-db-table-wp_drericholliswfLeechers.table.gz (24/34): adding to final database dump
+0010.728 (0) backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-db-table-wp_drericholliswfLockedOut.table.gz (25/34): adding to final database dump
+0010.730 (0) backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-db-table-wp_drericholliswfLocs.table.gz (26/34): adding to final database dump
+0010.731 (0) backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-db-table-wp_drericholliswfLogins.table.gz (27/34): adding to final database dump
+0010.733 (0) backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-db-table-wp_drericholliswfNet404s.table.gz (28/34): adding to final database dump
+0010.734 (0) backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-db-table-wp_drericholliswfReverseCache.table.gz (29/34): adding to final database dump
+0010.736 (0) backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-db-table-wp_drericholliswfSNIPCache.table.gz (30/34): adding to final database dump
+0010.738 (0) backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-db-table-wp_drericholliswfScanners.table.gz (31/34): adding to final database dump
+0010.739 (0) backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-db-table-wp_drericholliswfStatus.table.gz (32/34): adding to final database dump
+0010.746 (0) backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-db-table-wp_drericholliswfThrottleLog.table.gz (33/34): adding to final database dump
+0010.747 (0) backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-db-table-wp_drericholliswfVulnScanners.table.gz (34/34): adding to final database dump
+0010.749 (0) backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-db.gz: finished writing out complete database file (504 KB)
+0010.766 (0) Total database tables backed up: 34 (backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-db.gz, size: 538027, checksum (SHA1): 1276560d1d6f0e22903cacdf5c1a3c6a2e9cd723)
+0010.776 (0) backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0010.778 (0) backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-db.gz: db: This file has not yet been successfully uploaded: will queue
+0010.779 (0) Saving backup history. Total backup size: 13.2 MB
+0010.783 (0) Requesting upload of the files that have not yet been successfully uploaded (2)
+0010.789 (0) Cloud backup selection (1/1): none (last)
+0010.791 (0) No remote despatch: user chose no remote backup service
+0010.795 (0) Recording as successfully uploaded: backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-plugins.zip (3e66d3fb2e715e40fe7bf1a39faae7f6)
+0010.804 (0) Recording as successfully uploaded: backup_2017-01-13-1215_Kenneth_Ervin_Young_f72a49b74f3e-db.gz (7d4927900e0c361b2a36e5fca010b321)
+0010.816 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0010.820 (0) Number of backup sets in history: 3; groups (db): 1
+0010.821 (0) Examining (for databases) backup set with group_id=0, nonce=f72a49b74f3e, datestamp=1484327739 (Jan 13 2017 17:15:39)
+0010.823 (0) This backup set is the backup set just made, so will not be deleted.
+0010.824 (0) Examining (for databases) backup set with group_id=0, nonce=f0d27546839a, datestamp=1482935369 (Dec 28 2016 14:29:29)
+0010.826 (0) 1482935369: db: was sent to remote site; will remove from local record (only)
+0010.828 (0) Delete file: backup_2016-12-28-0929_drerichollis_f0d27546839a-db.gz, service=none
+0010.829 (0) Deleting local copy (backup_2016-12-28-0929_drerichollis_f0d27546839a-db.gz)
+0010.834 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0010.836 (0) Examining (for databases) backup set with group_id=0, nonce=2efb2e45de2e, datestamp=1482934159 (Dec 28 2016 14:09:19)
+0010.837 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0010.839 (0) Number of backup sets in history: 3; groups (files): 1
+0010.841 (0) Examining (for files) backup set with nonce=f72a49b74f3e, datestamp=1484327739 (Jan 13 2017 17:15:39)
+0010.843 (0) This backup set is the backup set just made, so will not be deleted.
+0010.844 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0010.846 (0) Examining (for files) backup set with nonce=f0d27546839a, datestamp=1482935369 (Dec 28 2016 14:29:29)
+0010.848 (0) plugins: 1482935369: was sent to remote site; will remove from local record (only)
+0010.850 (0) themes: 1482935369: was sent to remote site; will remove from local record (only)
+0010.851 (0) uploads: 1482935369: was sent to remote site; will remove from local record (only)
+0010.852 (0) others: 1482935369: was sent to remote site; will remove from local record (only)
+0010.854 (0) Delete file: backup_2016-12-28-0929_drerichollis_f0d27546839a-plugins.zip, service=none
+0010.855 (0) Deleting local copy (backup_2016-12-28-0929_drerichollis_f0d27546839a-plugins.zip)
+0010.857 (0) Delete file: backup_2016-12-28-0929_drerichollis_f0d27546839a-themes.zip, service=none
+0010.859 (0) Deleting local copy (backup_2016-12-28-0929_drerichollis_f0d27546839a-themes.zip)
+0010.861 (0) Delete file: backup_2016-12-28-0929_drerichollis_f0d27546839a-uploads.zip, service=none
+0010.862 (0) Deleting local copy (backup_2016-12-28-0929_drerichollis_f0d27546839a-uploads.zip)
+0010.865 (0) Delete file: backup_2016-12-28-0929_drerichollis_f0d27546839a-others.zip, service=none
+0010.866 (0) Deleting local copy (backup_2016-12-28-0929_drerichollis_f0d27546839a-others.zip)
+0010.872 (0) This backup set is now empty; will remove from history
+0010.873 (0) Deleting log file (log.f0d27546839a.txt)
+0010.877 (0) Examining (for files) backup set with nonce=2efb2e45de2e, datestamp=1482934159 (Dec 28 2016 14:09:19)
+0010.878 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0010.879 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0010.886 (0) Resume backup (f72a49b74f3e, 0): finish run
+0010.889 (0) Decremented the semaphore (fd) by 1
+0010.892 (0) Semaphore (fd) unlocked
+0010.893 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0010.900 (0) No email will/can be sent - the user has not configured an email address.
+0010.901 (0) The backup apparently succeeded and is now complete
